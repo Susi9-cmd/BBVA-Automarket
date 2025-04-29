@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra y Venta de Autos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Autos Online</h1>
+        <nav>
+            <a href="#vender">Vender Auto</a>
+            <a href="#comprar">Comprar Auto</a>
+        </nav>
+    </header>
+
+    <section id="comprar">
+        <h2>Autos en Venta</h2>
+        <div id="autos-lista" class="grid"></div>
+    </section>
+
+    <section id="vender">
+        <h2>Publicar un Auto</h2>
+        <form id="formulario-auto">
+            <input type="text" id="marca" placeholder="Marca" required>
+            <input type="text" id="modelo" placeholder="Modelo" required>
+            <input type="number" id="anio" placeholder="Año" required>
+            <input type="number" id="precio" placeholder="Precio" required>
+            <button type="submit">Publicar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
